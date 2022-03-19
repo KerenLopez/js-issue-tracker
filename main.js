@@ -54,6 +54,7 @@ function fetchIssues () {
                                       '<p><span class="glyphicon glyphicon-time"></span> ' + severity + ' '+
                                       '<span class="glyphicon glyphicon-user"></span> ' + assignedTo + '</p>'+
                                       '<a href="#" onclick="setStatusClosed(\''+id+'\')" class="btn btn-warning">Close</a>'+
+                                      '<a href="#" onclick="deleteIssue(\''+id+'\')" class="btn btn-danger">Delete</a>'+
                                       '</div>';
         }
     }
